@@ -153,8 +153,7 @@ continue to [test](#GPU-visibly-masking-and-multiple-GPUs) the installation.
 #### Install dependencies
 ```
 sudo apt install -y gcc cmake clang ccache llvm ocl-icd-opencl-dev python3-pip
-sudo apt install -y rocrand rocblas miopen-hip miopengemm rocfft rocprim rocsparse rocm-cmake rocm-dev rocm-device-libs rocm-libs rccl hipcub rocthrust
-
+sudo apt install -y rocrand rocblas miopen-hip miopengemm rocfft rocprim rocsparse rocm-cmake rocm-dev rocm-device-libs rocm-libs rccl hipcub rocthrust ninja-build
 export PATH=/opt/rocm/hcc/bin:/opt/rocm/hip/bin:/opt/rocm/opencl/bin:$PATH
 export USE_LLVM=/opt/llvm
 export LLVM_DIR=/opt/llvm/lib/cmake/llvm
