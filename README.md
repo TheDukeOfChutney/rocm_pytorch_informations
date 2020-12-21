@@ -187,8 +187,8 @@ This pytorch project has already hippified, and cloned sub modules.
 | GFX906 | Vega20 Series | RadeonVII/MI50/MI60 ... |
 
 ```
-#export HCC_AMDGPU_TARGET=gfx806 #(RX550/RX560/RX570/RX580/RX590 ...)
-export HCC_AMDGPU_TARGET=gfx900 #(Vega64/Vega56/MI25/WX9100/FrontierEdition ...)
+export HCC_AMDGPU_TARGET=gfx806 #(RX550/RX560/RX570/RX580/RX590 ...)
+#export HCC_AMDGPU_TARGET=gfx900 #(Vega64/Vega56/MI25/WX9100/FrontierEdition ...)
 #export HCC_AMDGPU_TARGET=gfx906 #(RadeonVII/MI50/MI60 ...)
 
 export USE_NINJA=1
